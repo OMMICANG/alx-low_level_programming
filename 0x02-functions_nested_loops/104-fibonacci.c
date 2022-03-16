@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int sum;
-	int first, second;
+	short int sum;
+	short int first, second;
 	int count;
 
 	sum = 0;
