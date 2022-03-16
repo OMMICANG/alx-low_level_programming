@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	long int sum;
-	long int first, second;
+	short int sum;
+	short  int first, second;
 	int count;
 
 	sum = 0;
@@ -18,14 +18,14 @@ int main(void)
 	while (count < 98)
 	{
 		sum = first + second;
-		printf("%li, ", sum);
+		printf("%hd, ", sum);
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	printf("%li\n", sum);
+	printf("%hd\n", sum);
 
 	return (0);
 }
