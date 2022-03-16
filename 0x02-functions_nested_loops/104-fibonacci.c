@@ -7,7 +7,7 @@
 int main(void)
 {
 	long int sum;
-	lomg int first, second;
+	long int first, second;
 	int count;
 
 	sum = 0;
@@ -15,7 +15,7 @@ int main(void)
 	second = 1;
 	count = 0;
 
-	while (count < 98)
+	while (count < 95)
 	{
 		sum = first + second;
 		printf("%li, ", sum);
