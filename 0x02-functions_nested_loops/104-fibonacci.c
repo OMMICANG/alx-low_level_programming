@@ -15,7 +15,7 @@ int main(void)
 	second = 1;
 	count = 0;
 
-	while (count < 82)
+	while (count < 85)
 	{
 		sum = first + second;
 		printf("%li, ", sum);
