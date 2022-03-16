@@ -18,14 +18,14 @@ int main(void)
 	while (count < 98)
 	{
 		sum = first + second;
-		printf("%d, ", sum);
+		printf("%i, ", sum);
 		first = second;
 		second = sum;
 
 		count++;
 	}
 	sum = first + second;
-	printf("%d\n", sum);
+	printf("%i\n", sum);
 
 	return (0);
 }
